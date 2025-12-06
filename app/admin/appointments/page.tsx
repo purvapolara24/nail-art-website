@@ -27,7 +27,7 @@ export default function AppointmentsPage() {
       date: "2025-12-20",
       time: "2:00 PM",
       status: "Confirmed",
-      amount: 45,
+      amount: 800,
     },
     {
       id: 2,
@@ -36,7 +36,7 @@ export default function AppointmentsPage() {
       date: "2025-12-21",
       time: "10:00 AM",
       status: "Pending",
-      amount: 50,
+      amount: 750,
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ export default function AppointmentsPage() {
       date: "2025-12-22",
       time: "3:00 PM",
       status: "Confirmed",
-      amount: 65,
+      amount: 1000,
     },
     {
       id: 4,
@@ -54,7 +54,7 @@ export default function AppointmentsPage() {
       date: "2025-12-23",
       time: "11:00 AM",
       status: "Pending",
-      amount: 35,
+      amount: 700,
     },
   ])
 
@@ -110,7 +110,7 @@ export default function AppointmentsPage() {
                       <span className="text-foreground/70">
                         {apt.date} at {apt.time}
                       </span>
-                      <span className="font-bold text-primary">${apt.amount}</span>
+                      <span className="font-bold text-primary">₹{apt.amount}</span>
                     </div>
                   </div>
                   <div className="flex gap-2 flex-wrap">

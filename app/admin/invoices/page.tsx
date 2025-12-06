@@ -18,10 +18,10 @@ interface Invoice {
 export default function InvoicesPage() {
   const router = useRouter()
   const [invoices, setInvoices] = useState<Invoice[]>([
-    { id: "1", invoiceNumber: "INV-001", client: "Sarah Johnson", amount: 65, date: "2025-11-15", status: "Paid" },
-    { id: "2", invoiceNumber: "INV-002", client: "Emily Chen", amount: 45, date: "2025-12-01", status: "Unpaid" },
-    { id: "3", invoiceNumber: "INV-003", client: "Jessica Martinez", amount: 50, date: "2025-12-08", status: "Paid" },
-    { id: "4", invoiceNumber: "INV-004", client: "Maria Rodriguez", amount: 85, date: "2025-12-10", status: "Unpaid" },
+    { id: "1", invoiceNumber: "INV-001", client: "Sarah Johnson", amount: 1000, date: "2025-11-15", status: "Paid" },
+    { id: "2", invoiceNumber: "INV-002", client: "Emily Chen", amount: 800, date: "2025-12-01", status: "Unpaid" },
+    { id: "3", invoiceNumber: "INV-003", client: "Jessica Martinez", amount: 750, date: "2025-12-08", status: "Paid" },
+    { id: "4", invoiceNumber: "INV-004", client: "Maria Rodriguez", amount: 950, date: "2025-12-10", status: "Unpaid" },
   ])
 
   useEffect(() => {
@@ -48,15 +48,15 @@ export default function InvoicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <Card className="p-6 bg-blue-50">
               <p className="text-foreground/70 text-sm mb-2">Total Revenue</p>
-              <p className="text-3xl font-bold text-foreground">${totalRevenue}</p>
+              <p className="text-3xl font-bold text-foreground">₹{totalRevenue}</p>
             </Card>
             <Card className="p-6 bg-green-50">
               <p className="text-foreground/70 text-sm mb-2">Paid</p>
-              <p className="text-3xl font-bold text-foreground">${paidRevenue}</p>
+              <p className="text-3xl font-bold text-foreground">₹{paidRevenue}</p>
             </Card>
             <Card className="p-6 bg-orange-50">
               <p className="text-foreground/70 text-sm mb-2">Pending</p>
-              <p className="text-3xl font-bold text-foreground">${pendingRevenue}</p>
+              <p className="text-3xl font-bold text-foreground">₹{pendingRevenue}</p>
             </Card>
           </div>
 
@@ -80,12 +80,11 @@ export default function InvoicesPage() {
                       <td className="px-6 py-4 font-mono text-foreground">{invoice.invoiceNumber}</td>
                       <td className="px-6 py-4 text-foreground">{invoice.client}</td>
                       <td className="px-6 py-4 text-foreground">{invoice.date}</td>
-                      <td className="px-6 py-4 font-bold text-foreground">${invoice.amount}</td>
+                      <td className="px-6 py-4 font-bold text-foreground">₹{invoice.amount}</td>
                       <td className="px-6 py-4">
                         <span
-                          className={`px-3 py-1 rounded-full text-sm font-semibold ${
-                            invoice.status === "Paid" ? "bg-green-100 text-green-800" : "bg-orange-100 text-orange-800"
-                          }`}
+                          className={`px-3 py-1 rounded-full text-sm font-semibold ${invoice.status === "Paid" ? "bg-green-100 text-green-800" : "bg-orange-100 text-orange-800"
+                            }`}
                         >
                           {invoice.status}
                         </span>

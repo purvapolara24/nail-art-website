@@ -119,7 +119,7 @@ export default function CreateInvoicePage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
-                        <label className="block text-sm font-semibold text-foreground mb-2">Amount ($) *</label>
+                        <label className="block text-sm font-semibold text-foreground mb-2">Amount (₹) *</label>
                         <Input
                           required
                           type="number"
@@ -165,15 +165,15 @@ export default function CreateInvoicePage() {
                       <div className="bg-secondary/30 p-4 rounded-lg space-y-2">
                         <div className="flex justify-between">
                           <span>Subtotal:</span>
-                          <span className="font-bold">${amount.toFixed(2)}</span>
+                          <span className="font-bold">₹{amount.toFixed(2)}</span>
                         </div>
                         <div className="flex justify-between">
                           <span>Tax (18%):</span>
-                          <span className="font-bold">${tax.toFixed(2)}</span>
+                          <span className="font-bold">₹{tax.toFixed(2)}</span>
                         </div>
                         <div className="flex justify-between text-lg font-bold border-t border-border pt-2">
                           <span>Total:</span>
-                          <span>${total.toFixed(2)}</span>
+                          <span>₹{total.toFixed(2)}</span>
                         </div>
                       </div>
                     )}

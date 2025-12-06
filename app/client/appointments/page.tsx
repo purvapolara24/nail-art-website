@@ -99,7 +99,7 @@ export default function AppointmentsPage() {
                         <Clock size={18} className="text-primary" />
                         <span className="text-foreground/70">{appointment.time}</span>
                       </div>
-                      <div className="text-foreground font-bold text-lg">${appointment.price}</div>
+                      <div className="text-foreground font-bold text-lg">₹{appointment.price}</div>
                     </div>
                   </div>
                   <div className="flex gap-3 w-full md:w-auto flex-col md:flex-row">

@@ -23,7 +23,7 @@ export default function InvoicesPage() {
       invoiceNumber: "INV-001",
       date: "2025-11-15",
       service: "Bridal Nails",
-      amount: 65,
+      amount: 1000,
       status: "Paid",
     },
     {
@@ -31,7 +31,7 @@ export default function InvoicesPage() {
       invoiceNumber: "INV-002",
       date: "2025-12-01",
       service: "Gel Manicure",
-      amount: 45,
+      amount: 800,
       status: "Unpaid",
     },
     {
@@ -39,7 +39,7 @@ export default function InvoicesPage() {
       invoiceNumber: "INV-003",
       date: "2025-12-08",
       service: "Chrome Nails",
-      amount: 50,
+      amount: 750,
       status: "Paid",
     },
   ])
@@ -74,15 +74,15 @@ export default function InvoicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <Card className="p-6 bg-blue-50">
               <p className="text-foreground/70 text-sm mb-2">Total Amount</p>
-              <p className="text-3xl font-bold text-foreground">${totalAmount}</p>
+              <p className="text-3xl font-bold text-foreground">₹{totalAmount}</p>
             </Card>
             <Card className="p-6 bg-green-50">
               <p className="text-foreground/70 text-sm mb-2">Paid</p>
-              <p className="text-3xl font-bold text-foreground">${paidAmount}</p>
+              <p className="text-3xl font-bold text-foreground">₹{paidAmount}</p>
             </Card>
             <Card className="p-6 bg-orange-50">
               <p className="text-foreground/70 text-sm mb-2">Due</p>
-              <p className="text-3xl font-bold text-foreground">${totalAmount - paidAmount}</p>
+              <p className="text-3xl font-bold text-foreground">₹{totalAmount - paidAmount}</p>
             </Card>
           </div>
 
@@ -106,12 +106,11 @@ export default function InvoicesPage() {
                       <td className="px-6 py-4 font-mono text-foreground">{invoice.invoiceNumber}</td>
                       <td className="px-6 py-4 text-foreground">{invoice.date}</td>
                       <td className="px-6 py-4 text-foreground">{invoice.service}</td>
-                      <td className="px-6 py-4 font-bold text-foreground">${invoice.amount}</td>
+                      <td className="px-6 py-4 font-bold text-foreground">₹{invoice.amount}</td>
                       <td className="px-6 py-4">
                         <span
-                          className={`px-3 py-1 rounded-full text-sm font-semibold ${
-                            invoice.status === "Paid" ? "bg-green-100 text-green-800" : "bg-orange-100 text-orange-800"
-                          }`}
+                          className={`px-3 py-1 rounded-full text-sm font-semibold ${invoice.status === "Paid" ? "bg-green-100 text-green-800" : "bg-orange-100 text-orange-800"
+                            }`}
                         >
                           {invoice.status}
                         </span>
