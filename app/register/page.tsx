@@ -64,7 +64,7 @@ export default function RegisterPage() {
             <span className="text-primary-foreground font-bold text-xl">L</span>
           </div>
           <h1 className="font-serif text-3xl font-bold text-foreground">Create Account</h1>
-          <p className="text-foreground/70 mt-2">Join Luxe Nails today</p>
+          <p className="text-foreground/70 mt-2">Join Purvi Nails today</p>
         </div>
 
         <Card className="p-8">

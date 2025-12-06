@@ -35,16 +35,15 @@ export function ClientSidebar() {
 
       {/* Sidebar */}
       <aside
-        className={`fixed md:static top-0 left-0 h-screen w-64 bg-foreground text-background transform transition-transform duration-300 ${
-          isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
-        } z-30`}
+        className={`fixed md:static top-0 left-0 h-screen w-64 bg-foreground text-background transform transition-transform duration-300 ${isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
+          } z-30`}
       >
         <div className="p-6">
           <Link href="/client/dashboard" className="flex items-center gap-2 mb-8">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold">L</span>
             </div>
-            <span className="font-serif text-lg font-bold">Luxe Nails</span>
+            <span className="font-serif text-lg font-bold">Purvi Nails</span>
           </Link>
 
           <nav className="space-y-2 mb-8">

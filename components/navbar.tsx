@@ -16,7 +16,7 @@ export function Navbar() {
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">L</span>
             </div>
-            <span className="font-serif text-xl font-bold text-foreground">Luxe Nails</span>
+            <span className="font-serif text-xl font-bold text-foreground">Purvi Nails</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -19,10 +19,10 @@ interface Service {
 export default function ServicesPage() {
   const router = useRouter()
   const [services, setServices] = useState<Service[]>([
-    { id: 1, name: "Gel Manicure", category: "Gel", price: 45, duration: 60 },
-    { id: 2, name: "French Polish", category: "French", price: 35, duration: 45 },
-    { id: 3, name: "Bridal Nails", category: "Bridal", price: 65, duration: 90 },
-    { id: 4, name: "Chrome Nails", category: "Chrome", price: 50, duration: 60 },
+    { id: 1, name: "Gel Manicure", category: "Gel", price: 800, duration: 45 },
+    { id: 2, name: "French Polish", category: "French", price: 700, duration: 35 },
+    { id: 3, name: "Bridal Nails", category: "Bridal", price: 1000, duration: 65 },
+    { id: 4, name: "Chrome Nails", category: "Chrome", price: 750, duration: 50 },
   ])
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [editingId, setEditingId] = useState<number | null>(null)

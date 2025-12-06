@@ -42,7 +42,7 @@ export default function ContactPage() {
                   <Phone className="text-primary flex-shrink-0" size={24} />
                   <div>
                     <h3 className="font-bold text-foreground">Phone</h3>
-                    <p className="text-foreground/70">(555) 123-4567</p>
+                    <p className="text-foreground/70">9558643797</p>
                   </div>
                 </Card>
 
@@ -50,7 +50,7 @@ export default function ContactPage() {
                   <Mail className="text-primary flex-shrink-0" size={24} />
                   <div>
                     <h3 className="font-bold text-foreground">Email</h3>
-                    <p className="text-foreground/70">hello@luxenails.com</p>
+                    <p className="text-foreground/70">purvi05@gmail.com</p>
                   </div>
                 </Card>
 
@@ -59,9 +59,9 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold text-foreground">Address</h3>
                     <p className="text-foreground/70">
-                      123 Beauty Lane, Suite 100
+                      123 Apple Square, Yogi Chowk
                       <br />
-                      Luxury City, CA 90210
+                      Punagam, Surat
                     </p>
                   </div>
                 </Card>

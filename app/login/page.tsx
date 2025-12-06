@@ -55,7 +55,7 @@ export default function LoginPage() {
           <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mx-auto mb-4">
             <span className="text-primary-foreground font-bold text-xl">L</span>
           </div>
-          <h1 className="font-serif text-3xl font-bold text-foreground">Luxe Nails</h1>
+          <h1 className="font-serif text-3xl font-bold text-foreground">Purvi Nails</h1>
           <p className="text-foreground/70 mt-2">Welcome back</p>
         </div>
 

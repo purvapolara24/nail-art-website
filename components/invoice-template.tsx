@@ -53,7 +53,7 @@ export function InvoiceTemplate({ data }: InvoiceTemplateProps) {
         <div className="flex justify-between items-start mb-12">
           <div>
             <h1 className="font-serif text-4xl font-bold text-foreground mb-2">INVOICE</h1>
-            <p className="text-foreground/70">Luxe Nails</p>
+            <p className="text-foreground/70">Purvi Nails</p>
           </div>
           <div className="text-right">
             <p className="font-bold">Invoice #: {data.invoiceNumber}</p>
@@ -71,9 +71,9 @@ export function InvoiceTemplate({ data }: InvoiceTemplateProps) {
           </div>
           <div>
             <p className="text-foreground/70 text-sm mb-2">FROM</p>
-            <p className="font-bold text-lg">Luxe Nails Salon</p>
-            <p className="text-foreground/70">123 Beauty Lane</p>
-            <p className="text-foreground/70">Luxury City, CA 90210</p>
+            <p className="font-bold text-lg">Purvi Nails Salon</p>
+            <p className="text-foreground/70">123 Apple Square, Yogi Chowk</p>
+            <p className="text-foreground/70">Punagam, Surat</p>
           </div>
         </div>
 
@@ -128,7 +128,7 @@ export function InvoiceTemplate({ data }: InvoiceTemplateProps) {
         {/* Footer */}
         <div className="border-t-2 border-foreground pt-8 text-center text-foreground/70 text-sm">
           <p>Thank you for your business!</p>
-          <p>Luxe Nails • (555) 123-4567 • hello@luxenails.com</p>
+          <p>Purvi Nails • 9558643797 • hello@purvinails.com</p>
         </div>
       </div>
 

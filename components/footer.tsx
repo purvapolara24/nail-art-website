@@ -6,7 +6,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="font-serif text-lg font-bold mb-4">Luxe Nails</h3>
+            <h3 className="font-serif text-lg font-bold mb-4">Purvi Nails</h3>
             <p className="text-background/80">Premium nail art salon offering luxury services and designs.</p>
           </div>
           <div>
@@ -69,7 +69,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-background/20 pt-8">
-          <p className="text-center text-background/60">© 2025 Luxe Nails. All rights reserved.</p>
+          <p className="text-center text-background/60">© 2025 Purvi Nails. All rights reserved.</p>
         </div>
       </div>
     </footer>

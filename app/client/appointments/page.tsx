@@ -25,7 +25,7 @@ export default function AppointmentsPage() {
       service: "Gel Manicure",
       date: "2025-12-20",
       time: "2:00 PM",
-      price: 45,
+      price: 800,
       status: "Confirmed",
     },
     {
@@ -33,7 +33,7 @@ export default function AppointmentsPage() {
       service: "Chrome Nails",
       date: "2025-12-27",
       time: "10:00 AM",
-      price: 50,
+      price: 750,
       status: "Pending",
     },
     {
@@ -41,7 +41,7 @@ export default function AppointmentsPage() {
       service: "Bridal Nails",
       date: "2025-11-15",
       time: "3:00 PM",
-      price: 65,
+      price: 1000,
       status: "Completed",
     },
   ])

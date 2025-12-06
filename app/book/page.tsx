@@ -11,12 +11,12 @@ import { Footer } from "@/components/footer"
 import { ArrowRight } from "lucide-react"
 
 const services = [
-  { id: 1, name: "Gel Manicure", price: 45, duration: 60, category: "Gel Nails" },
-  { id: 2, name: "French Polish", price: 35, duration: 45, category: "French Polish" },
-  { id: 3, name: "Bridal Nails", price: 65, duration: 90, category: "Bridal" },
-  { id: 4, name: "Chrome Nails", price: 50, duration: 60, category: "Chrome" },
-  { id: 5, name: "Acrylic Design", price: 55, duration: 75, category: "Acrylic" },
-  { id: 6, name: "Nail Art", price: 40, duration: 60, category: "Art" },
+  { id: 1, name: "Gel Manicure", price: 800, duration: 45, category: "Gel Nails" },
+  { id: 2, name: "French Polish", price: 700, duration: 35, category: "French Polish" },
+  { id: 3, name: "Bridal Nails", price: 1000, duration: 65, category: "Bridal" },
+  { id: 4, name: "Chrome Nails", price: 750, duration: 50, category: "Chrome" },
+  { id: 5, name: "Acrylic Design", price: 950, duration: 55, category: "Acrylic" },
+  { id: 6, name: "Nail Art", price: 850, duration: 40, category: "Art" },
 ]
 
 export default function BookPage() {
@@ -80,8 +80,8 @@ export default function BookPage() {
                           type="button"
                           onClick={() => setSelectedService(service.id)}
                           className={`p-4 border-2 rounded-lg text-left transition-all ${selectedService === service.id
-                              ? "border-primary bg-primary/5"
-                              : "border-border hover:border-primary/50"
+                            ? "border-primary bg-primary/5"
+                            : "border-border hover:border-primary/50"
                             }`}
                         >
                           <h3 className="font-bold text-foreground">{service.name}</h3>

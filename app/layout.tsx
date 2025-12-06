@@ -10,9 +10,9 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   // <CHANGE> updated metadata for nail art salon
-  title: "Luxe Nails - Premium Nail Art Salon",
+  title: "Purvi Nails - Premium Nail Art Salon",
   description:
-    "Experience luxury nail art services at Luxe Nails. Expert nail design, gel manicures, bridal nails, and more.",
+    "Experience luxury nail art services at Purvi Nails. Expert nail design, gel manicures, bridal nails, and more.",
   generator: "v0.app",
   icons: {
     icon: [

@@ -9,7 +9,7 @@ import { Star, ArrowRight } from "lucide-react"
 const testimonials = [
   {
     name: "Sarah Johnson",
-    text: "Luxe Nails provided the most beautiful bridal nails I could have asked for. Absolutely stunning!",
+    text: "Purvi Nails provided the most beautiful bridal nails I could have asked for. Absolutely stunning!",
     rating: 5,
   },
   {
@@ -35,7 +35,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
                 <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Luxe Nails
+                  Purvi Nails
                   <span className="text-primary"> Perfection</span>
                 </h1>
                 <p className="text-xl text-foreground/70 leading-relaxed">
@@ -78,9 +78,9 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { title: "Gel Nails", desc: "Long-lasting, glossy finish", price: "₹45", icon: "💅" },
-                { title: "French Polish", desc: "Classic elegant style", price: "₹35", icon: "✨" },
-                { title: "Bridal Nails", desc: "Special occasion perfection", price: "₹65", icon: "💍" },
+                { title: "Gel Nails", desc: "Long-lasting, glossy finish", price: "₹800", icon: "💅" },
+                { title: "French Polish", desc: "Classic elegant style", price: "₹700", icon: "✨" },
+                { title: "Bridal Nails", desc: "Special occasion perfection", price: "₹1000", icon: "💍" },
               ].map((service) => (
                 <Card key={service.title} className="p-6 hover:shadow-lg transition-shadow">
                   <div className="text-4xl mb-4">{service.icon}</div>

@@ -28,7 +28,7 @@ export default function AboutPage() {
             <div className="space-y-6">
               <h2 className="font-serif text-3xl font-bold text-foreground">Our Story</h2>
               <p className="text-lg text-foreground/70 leading-relaxed">
-                Founded in 2010, Luxe Nails has been a premier destination for nail art and care services. Our passion
+                Founded in 2010, Purvi Nails has been a premier destination for nail art and care services. Our passion
                 for beauty and attention to detail has made us the go-to salon for special occasions, daily manicures,
                 and artistic nail designs.
               </p>
@@ -60,7 +60,7 @@ export default function AboutPage() {
         {/* CTA */}
         <section className="py-16 md:py-24">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="font-serif text-3xl font-bold text-foreground mb-4">Experience Luxe Nails Today</h2>
+            <h2 className="font-serif text-3xl font-bold text-foreground mb-4">Experience Purvi Nails Today</h2>
             <Link href="/book">
               <Button size="lg" className="bg-primary hover:bg-primary/90">
                 Book Your Appointment
