@@ -62,8 +62,8 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4">Contact</h4>
             <ul className="space-y-2 text-background/80">
-              <li>Email: hello@luxenails.com</li>
-              <li>Phone: (555) 123-4567</li>
+              <li>Email: purvi05@gmail.com</li>
+              <li>Phone: 9558643797</li>
               <li>Hours: Tue-Sun 10am-6pm</li>
             </ul>
           </div>
